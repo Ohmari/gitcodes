@@ -1,0 +1,9 @@
+#! /bin/sh
+
+cd db/bin/
+
+#./startNetworkServer -h "$@" -p 80
+
+chmod +x startNetworkServer
+
+./startNetworkServer
